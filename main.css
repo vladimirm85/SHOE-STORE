@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    margin: 0px 10%;
+}
+
+.main-header p {
+    margin: 0px;
+}
+
+.main-header__title {
+    width: 31%;
+    justify-content: center;
+    align-items: center
+}
+
+.main-header__title > a {
+    font: 40px 'Indie Flower', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.main-header__shipping {
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.main-header__shipping a {
+    color: #ae4243;
+    text-decoration: none;
+}
+
+.main-header__contact {
+    width: 23%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.main-header__user {
+    width: 23%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.main-header__user--login {
+    color: black;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.main-header__user--cart {
+    color: black;
+    text-decoration: none;
+}
+
+.header-nav {
+    margin: 0px 10%;
+}
+
+.header-nav__ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.header-nav__li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header-nav__li a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.header-nav__li a:hover {
+    color: #707072;
+    text-decoration: none;
+}
